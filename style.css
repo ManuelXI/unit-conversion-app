@@ -1,0 +1,107 @@
+body {
+  background-color: #242424;
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 97.5723px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -10px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #d2d2d2;
+}
+
+strong {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.convertor {
+  width: 550px;
+  height: 550px;
+  margin: 0 auto;
+  background: #25354b;
+  border-radius: 25px 5px 15px 15px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 1px 6px rgba(0, 0, 0, 0.05),
+    0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1),
+    8px 32px 32px rgba(0, 0, 0, 0.15), 8px 64px 64px rgba(0, 0, 0, 0.15);
+}
+
+.convertor-top {
+  padding-top: 30px;
+  width: 550px;
+  height: 230px;
+  left: 0px;
+  top: 0px;
+  background-image: linear-gradient(
+    45deg,
+    hsl(340deg 82% 61%) 0%,
+    hsl(349deg 92% 64%) 29%,
+    hsl(360deg 99% 67%) 43%,
+    hsl(11deg 100% 64%) 57%,
+    hsl(22deg 96% 59%) 71%,
+    hsl(32deg 90% 52%) 100%
+  );
+  border-radius: 35px 10px 25px 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 1px 6px rgba(0, 0, 0, 0.05),
+    0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1),
+    8px 32px 32px rgba(0, 0, 0, 0.15), 8px 64px 64px rgba(0, 0, 0, 0.15);
+}
+
+.convertor-bottom {
+  width: 550px;
+  height: 250px;
+  top: 260px;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  padding: 0px 5px;
+  margin: 15px auto;
+  text-align: center;
+  border: none;
+  background: none;
+  width: 100%;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 97.5723px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -10px;
+  outline: none;
+}
+input:active {
+  outline: none;
+  border-width: 0 0 1px 0;
+  /* border: none; */
+}
